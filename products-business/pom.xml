@@ -19,8 +19,16 @@
     </properties>
     <dependencies>
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
             <groupId>com.demo.products</groupId>
             <artifactId>products-entity</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.demo.products</groupId>
+            <artifactId>products-dao</artifactId>
         </dependency>
     </dependencies>
 
